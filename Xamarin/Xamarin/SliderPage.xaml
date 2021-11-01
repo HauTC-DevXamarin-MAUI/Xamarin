@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Tìm hiểu Slider"
+             x:Class="Xamarin.SliderPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label x:Name="lblRotating"
+                   Text="ROTATING TEXT"
+                   FontSize="Large"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" />
+
+            <Slider x:Name="sldRotating"
+                    Minimum="0"
+                    Maximum="360"
+                    Value="0"
+                    Margin="20"
+                    BackgroundColor="LightGray"
+                    ThumbColor="WhiteSmoke"
+                    ValueChanged="sldRotating_ValueChanged"/>
+
+            <Label x:Name="lblDisplay"
+                   Text="(uninitialized)"
+                   HorizontalOptions="Center"
+                   VerticalOptions="CenterAndExpand" 
+                   FontAttributes="Bold"
+                   FontSize="40"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

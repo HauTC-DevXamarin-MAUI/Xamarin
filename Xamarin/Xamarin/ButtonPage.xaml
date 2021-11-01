@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Tìm hiểu Button"
+             x:Class="Xamarin.ButtonPage">
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <!--Button-->
+            <Button 
+                x:Name="btnButton"
+                Text="Button"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Clicked="btnButton_Clicked"/>
+            <!--RadioButton-->
+            <Label Text="Select Dog or Cat, after Click imgButton to change image button "/>
+            <StackLayout RadioButtonGroup.GroupName="animals">
+                <RadioButton x:Name="rdoDog"
+                             IsChecked="True"
+                             Value="Dog"
+                             Content="Dog"/>
+                <RadioButton x:Name="rdoCat"
+                             Value="Cat"
+                             Content="Cat"/>
+            </StackLayout>
+            
+            <!--ImageButton-->
+            <ImageButton 
+                x:Name="imgButton"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Source="dog.jpg"
+                HeightRequest="60"
+                Clicked="imgButton_Clicked"/>
+            
+            <!--Searchbar-->
+            <SearchBar x:Name="sbar" 
+                       Placeholder="Tìm kiếm sản phẩm ... "
+                       PlaceholderColor="Black"
+                       CancelButtonColor="Black"
+                       HorizontalTextAlignment="Center"
+                       BackgroundColor="LightGray"
+                       SearchButtonPressed="SearchBar_SearchButtonPressed"
+                       />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

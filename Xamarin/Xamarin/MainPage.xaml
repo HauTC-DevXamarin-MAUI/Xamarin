@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Tìm hiểu các Control cơ bản trong Xamarin"
+             x:Class="Xamarin.MainPage">
+
+    <Grid Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="60"/>
+        </Grid.RowDefinitions>
+        
+        <Button x:Name="btnButton"
+                Text="Tìm hiểu Button"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="0"
+                Grid.Column="0"
+                Clicked="btnButton_Clicked"/>
+        <Button x:Name="btnSlider"
+                Text="Tìm hiểu Slider"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="0"
+                Grid.Column="1"
+                Clicked="btnSlider_Clicked"/>
+        <Button x:Name="btnWebView"
+                Text="Tìm hiểu WebView"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="0"
+                Grid.Column="2"
+                Clicked="btnWebView_Clicked"/>
+        <Button x:Name="btnLabel"
+                Text="Tìm Hiểu Lable"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="1"
+                Grid.Column="0"
+                Clicked="btnLabel_Clicked"/>
+    </Grid>
+
+</ContentPage>
