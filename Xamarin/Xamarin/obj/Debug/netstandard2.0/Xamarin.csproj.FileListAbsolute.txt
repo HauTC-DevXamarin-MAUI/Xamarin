@@ -16,3 +16,15 @@ D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Button
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\SliderPage.xaml.g.cs
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\WebViewPage.xaml.g.cs
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\LabelPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\EntryPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\ImagePage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\DatePickerPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\BoxViewPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\PokemonPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\PokemonDetailPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\PokedexNET.dll
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\PokedexNET.pdb
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\PokedexNET.dll.config
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Xamarin.csproj.CopyComplete

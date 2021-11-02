@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="POKEMON INFO"
+             x:Class="Xamarin.PokemonDetailPage">
+        <Grid Margin="20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Image x:Name="imgPokemonDetail"
+                   WidthRequest="180"
+                   HeightRequest="180"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   Grid.Row="0"
+                   Grid.ColumnSpan="2"
+                   BackgroundColor="LightGray"/>
+            <Label Text="Name: "
+                   FontAttributes="Bold"
+                   FontSize="20"
+                   Grid.Row="1"
+                   Grid.Column="0"/>
+            <Label x:Name="lblName"
+                   FontSize="20"
+                   Grid.Row="1"
+                   Grid.Column="1"/>
+            <Label Text="Weight: "
+                   FontAttributes="Bold"
+                   FontSize="20"
+                   Grid.Row="2"
+                   Grid.Column="0"/>
+            <Label x:Name="lblWeight"
+                   FontSize="20"
+                   Grid.Row="2"
+                   Grid.Column="1"/>
+            <Label Text="Height: "
+                   FontAttributes="Bold"
+                   FontSize="20"
+                   Grid.Row="3"
+                   Grid.Column="0"/>
+            <Label x:Name="lblHeight"
+                   FontSize="20"
+                   Grid.Row="3"
+                   Grid.Column="1"/>
+            <Label x:Name="lblDesc"
+                   FontSize="20"
+                   Grid.Row="4"
+                   Grid.ColumnSpan="2"/>
+            <Button Text="OPEN WEBSITE"
+                    Grid.Row="5"
+                    Grid.ColumnSpan="2"
+                    Clicked="Button_Clicked"/>
+        </Grid>
+</ContentPage>

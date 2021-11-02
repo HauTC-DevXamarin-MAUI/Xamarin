@@ -56,3 +56,10 @@ D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.iOS\obj\iPhone\Debug\Xamarin.iO
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.iOS\obj\iPhone\Debug\Xamarin.iOS.csproj.CopyComplete
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.iOS\obj\iPhone\Debug\Xamarin.iOS.exe
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.iOS\obj\iPhone\Debug\Xamarin.iOS.pdb
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\PokedexNET.dll.mdb
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\PokedexNET.dll
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\PokedexNET.pdb
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\Newtonsoft.Json.xml
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\System.ComponentModel.TypeConverter.dll
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\PokedexNET.dll.config

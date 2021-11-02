@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Tìm Hiểu DatePicker"
+             x:Class="Xamarin.DatePickerPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <DatePicker x:Name="datePickerHau" 
+                        MinimumDate="1/1/2020"
+                        MaximumDate="1/1/2022"
+                        Date="2/1/2020"
+                        WidthRequest="200"
+                        HeightRequest="50"
+                        HorizontalOptions="Center"
+                        DateSelected="DatePicker_DateSelected"/>
+            <Label x:Name="lblDay"
+                   Text="Ngày hôm nay là: "/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

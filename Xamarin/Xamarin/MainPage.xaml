@@ -48,6 +48,41 @@
                 Grid.Row="1"
                 Grid.Column="0"
                 Clicked="btnLabel_Clicked"/>
+        <Button x:Name="btnEntry"
+                Text="Tìm Hiểu Entry,Editor"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="1"
+                Grid.Column="1"
+                Clicked="btnEntry_Clicked"/>
+        <Button x:Name="btnImages"
+                Text="Tìm Hiểu Images"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="1"
+                Grid.Column="2"
+                Clicked="btnImages_Clicked"/>
+        <Button x:Name="btnDatePicker"
+                Text="Tìm Hiểu DatePicker"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="2"
+                Grid.Column="0"
+                Clicked="btnDatePicker_Clicked"/>
+        <Button x:Name="btnBoxView"
+                Text="BoxView, Picker"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="2"
+                Grid.Column="1"
+                Clicked="btnBoxView_Clicked"/>
+        <Button x:Name="btnApp"
+                Text="App Demo Pokemon" 
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="2"
+                Grid.Column="2"
+                Clicked="btnApp_Clicked"/>
     </Grid>
 
 </ContentPage>

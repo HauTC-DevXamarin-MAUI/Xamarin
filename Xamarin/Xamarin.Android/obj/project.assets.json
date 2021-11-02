@@ -971,10 +971,20 @@
           "buildTransitive/monoandroid50/Xamarin.Google.Guava.ListenableFuture.targets": {}
         }
       },
+      "PokedexNET/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/PokedexNET.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PokedexNET.dll": {}
+        }
+      },
       "Xamarin/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "PokedexNET": "1.0.0",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012"
         },
@@ -2128,6 +2138,11 @@
         "xamarin.google.guava.listenablefuture.nuspec"
       ]
     },
+    "PokedexNET/1.0.0": {
+      "type": "project",
+      "path": "../../../../../PokedexNET_Starter/PokedexNET.csproj",
+      "msbuildProject": "../../../../../PokedexNET_Starter/PokedexNET.csproj"
+    },
     "Xamarin/1.0.0": {
       "type": "project",
       "path": "../Xamarin/Xamarin.csproj",
@@ -2136,6 +2151,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v11.0": [
+      "PokedexNET >= 1.0.0",
       "Xamarin >= 1.0.0",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012"
@@ -2178,6 +2194,9 @@
           "projectReferences": {
             "D:\\GMO\\Xamarin_trainning\\Xamarin\\Xamarin\\Xamarin\\Xamarin.csproj": {
               "projectPath": "D:\\GMO\\Xamarin_trainning\\Xamarin\\Xamarin\\Xamarin\\Xamarin.csproj"
+            },
+            "D:\\PokedexNET_Starter\\PokedexNET.csproj": {
+              "projectPath": "D:\\PokedexNET_Starter\\PokedexNET.csproj"
             }
           }
         }

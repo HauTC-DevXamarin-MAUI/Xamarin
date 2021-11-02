@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Tìm hiểu Entry vaf Editor"
+             x:Class="Xamarin.EntryPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="entryName" Placeholder="Tìm hiểu Entry"
+                   Keyboard="Chat"
+                   CharacterSpacing="0.8"
+                   ClearButtonVisibility="WhileEditing"
+                   Margin="5"
+                   TextChanged="entryName_TextChanged"
+                   Completed="entryName_Completed"/>
+            <Label x:Name="lblDisplay"
+                   Text="..."
+                   HorizontalOptions="Center"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   TextColor="Red"
+                   Padding="5"
+                   Margin="5"
+                   LineBreakMode="HeadTruncation"/>
+            <Editor x:Name="edtName"
+                    Placeholder="Tìm hiểu Editor"
+                    TextColor="Black"
+                    IsEnabled="True"
+                    TextTransform="Default"
+                    IsSpellCheckEnabled="True"
+                    IsTextPredictionEnabled="False"
+                    HeightRequest="200"
+                    BackgroundColor="Gray"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

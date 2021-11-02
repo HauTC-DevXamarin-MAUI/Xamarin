@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Tìm hiểu Images"
+             xmlns:local="clr-namespace:Xamarin"
+             x:Class="Xamarin.ImagePage">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--Image local-->
+            <Label Text="Image local"
+                   HorizontalOptions="Center"
+                   FontSize="20"/>
+            <Image Source="cat.jpg" 
+                   Aspect="AspectFit"
+                   HeightRequest="100"
+                   WidthRequest="100">
+            </Image>
+            <Image x:Name="imgDog" 
+                   Aspect="AspectFit"
+                   HeightRequest="100"
+                   WidthRequest="100">
+            </Image>
+            <!--Image Web URL-->
+            <Label Text="Image Web URL"
+                   HorizontalOptions="Center"
+                   FontSize="20"/>
+            <Image Source="https://upload.wikimedia.org/wikipedia/vi/thumb/1/14/Windows_logo_-_2006.svg/644px-Windows_logo_-_2006.svg.png" 
+                   Aspect="AspectFit"
+                   HeightRequest="100"
+                   WidthRequest="100">
+            </Image>
+            <!--Image Ebedded-->
+            <Label Text="Image Ebedded"
+                   HorizontalOptions="Center"
+                   FontSize="20"/>
+            <Image Source="{local:ImageResource Xamarin.Image.catEbedd.jpg}" 
+                   Aspect="AspectFit"
+                   HeightRequest="100"
+                   WidthRequest="100">
+            </Image>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

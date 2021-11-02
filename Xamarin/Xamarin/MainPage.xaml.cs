@@ -34,5 +34,30 @@ namespace Xamarin
         {
             Navigation.PushAsync(new LabelPage());
         }
+
+        private void btnEntry_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new EntryPage());
+        }
+
+        private void btnImages_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ImagePage());
+        }
+
+        private void btnDatePicker_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new DatePickerPage());
+        }
+
+        private void btnBoxView_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new BoxViewPage());
+        }
+
+        private void btnApp_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PokemonPage());
+        }
     }
 }
