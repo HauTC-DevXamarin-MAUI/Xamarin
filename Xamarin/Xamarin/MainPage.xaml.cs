@@ -59,5 +59,25 @@ namespace Xamarin
         {
             Navigation.PushAsync(new PokemonPage());
         }
+
+        private void btnStackLayout_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new StackLayout());
+        }
+
+        private void btnGridLayout_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new GirdLayoutPage());
+        }
+
+        private void btnAbsLayout_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new AbsouteLayoutPage());
+        }
+
+        private void btnRelativeLayout_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -4,11 +4,13 @@
              Title="POKEMON"
              x:Class="Xamarin.PokemonPage">
     <ContentPage.Content>
-        <StackLayout Margin="20">
+        <StackLayout Padding="20"
+                     BackgroundColor="Azure">
             <Label Text="Enter Pokemon Number"/>
             <Entry x:Name="entryNumber"
                    Placeholder="Number"
-                   Keyboard="Numeric"/>
+                   Keyboard="Numeric"
+                   ClearButtonVisibility="WhileEditing"/>
             <Button x:Name="btnFind"
                     Text="FIND POKEMON"
                     Clicked="btnFind_Clicked"/>

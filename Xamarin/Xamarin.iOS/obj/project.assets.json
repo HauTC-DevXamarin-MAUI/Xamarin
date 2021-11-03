@@ -1030,7 +1030,6 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
-      "PokedexNET >= 1.0.0",
       "Xamarin >= 1.0.0",
       "Xamarin.Essentials >= 1.6.1",
       "Xamarin.Forms >= 5.0.0.2012"
@@ -1073,9 +1072,6 @@
           "projectReferences": {
             "D:\\GMO\\Xamarin_trainning\\Xamarin\\Xamarin\\Xamarin\\Xamarin.csproj": {
               "projectPath": "D:\\GMO\\Xamarin_trainning\\Xamarin\\Xamarin\\Xamarin\\Xamarin.csproj"
-            },
-            "D:\\PokedexNET_Starter\\PokedexNET.csproj": {
-              "projectPath": "D:\\PokedexNET_Starter\\PokedexNET.csproj"
             }
           }
         }

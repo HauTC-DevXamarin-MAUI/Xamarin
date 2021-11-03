@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              Title="POKEMON INFO"
              x:Class="Xamarin.PokemonDetailPage">
-        <Grid Margin="20">
+        <Grid Padding="20"
+              BackgroundColor="Azure">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="auto"/>
                 <ColumnDefinition/>

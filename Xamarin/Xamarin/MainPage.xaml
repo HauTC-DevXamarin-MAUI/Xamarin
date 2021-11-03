@@ -83,6 +83,34 @@
                 Grid.Row="2"
                 Grid.Column="2"
                 Clicked="btnApp_Clicked"/>
+        <Button x:Name="btnStackLayout"
+                Text="StackLayout" 
+                HorizontalOptions="Center"
+                VerticalOptions="Fill"
+                Grid.Row="3"
+                Grid.Column="0"
+                Clicked="btnStackLayout_Clicked"/>
+        <Button x:Name="btnGridLayout"
+                Text="GirdLayout" 
+                HorizontalOptions="Center"
+                VerticalOptions="Fill"
+                Grid.Row="3"
+                Grid.Column="1"
+                Clicked="btnGridLayout_Clicked"/>
+        <Button x:Name="btnAbsLayout"
+                Text="AbsoluteLayout" 
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="3"
+                Grid.Column="2"
+                Clicked="btnAbsLayout_Clicked"/>
+        <Button x:Name="btnRelativeLayout"
+                Text="RelativeLayout" 
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="4"
+                Grid.Column="0"
+                Clicked="btnRelativeLayout_Clicked"/>
     </Grid>
 
 </ContentPage>

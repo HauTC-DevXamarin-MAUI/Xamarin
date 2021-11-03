@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin.StackLayout">
+    <ContentPage.Content>
+        <StackLayout Padding="0,20">
+            <!--Test Ngang-->
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Horiziontal" VerticalOptions="Center"/>
+                <Button x:Name="btnHorStart" 
+                        Text="Start"
+                        Clicked="btnHorStart_Clicked"/>
+                <Button x:Name="btnHorCenter" 
+                        Text="Center"
+                        Clicked="btnHorCenter_Clicked"/>
+                <Button x:Name="btnHorEnd" 
+                        Text="End"
+                        Clicked="btnHorEnd_Clicked"/>
+                <Button x:Name="btnHorFill" 
+                        Text="Fill"
+                        Clicked="btnHorFill_Clicked"/>
+            </StackLayout>
+            <!--Test Dọc-->
+            <StackLayout Orientation="Horizontal"
+                         Margin="0,0,0,10">
+                <Label Text="Vertical" VerticalOptions="Center"/>
+                <Button x:Name="btnVerStart" 
+                        Text="Start"
+                        Clicked="btnVerStart_Clicked"/>
+                <Button x:Name="btnVerCenter" 
+                        Text="Center"
+                        Clicked="btnVerCenter_Clicked"/>
+                <Button x:Name="btnVerEnd" 
+                        Text="End"
+                        Clicked="btnVerEnd_Clicked"/>
+                <Button x:Name="btnVerFill" 
+                        Text="Fill"
+                        Clicked="btnVerFill_Clicked"/>
+            </StackLayout>
+
+            <Label x:Name="lblTarget" 
+                   BackgroundColor="Gray" 
+                   Text="Alo Alo"
+                   WidthRequest="150"
+                   HeightRequest="150"
+                   VerticalTextAlignment="Center"
+                   HorizontalTextAlignment="Center"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

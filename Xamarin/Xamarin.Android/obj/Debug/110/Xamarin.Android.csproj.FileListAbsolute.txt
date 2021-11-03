@@ -581,7 +581,6 @@ D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\res\drawa
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\bin\Debug\PokedexNET.dll
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\bin\Debug\Newtonsoft.Json.dll
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\bin\Debug\PokedexNET.pdb
-D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\bin\Debug\PokedexNET.dll.mdb
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\bin\Debug\Newtonsoft.Json.xml
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\android\assets\Microsoft.CSharp.dll
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\android\assets\Microsoft.CSharp.pdb
@@ -608,11 +607,8 @@ D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\android\a
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\android\assets\System.Threading.Tasks.dll
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\android\assets\System.Xml.ReaderWriter.dll
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\android\assets\System.Xml.XDocument.dll
-D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\bin\Debug\System.ComponentModel.TypeConverter.dll
-D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\bin\Debug\PokedexNET.dll.config
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\android\assets\PokedexNET.dll.config
-D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\android\assets\System.ComponentModel.dll
-D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\android\assets\System.ComponentModel.Primitives.dll
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\android\assets\System.ComponentModel.TypeConverter.dll
-D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\android\assets\System.Reflection.Primitives.dll
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\stamp\_CopyConfigFiles.stamp
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\bin\Debug\PokedexNET.dll.mdb
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin.Android\bin\Debug\PokedexNET.dll.config

@@ -25,6 +25,9 @@ D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Pokemo
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\PokedexNET.dll
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\Newtonsoft.Json.dll
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\PokedexNET.pdb
-D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\PokedexNET.dll.config
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Xamarin.csproj.CopyComplete
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\PokedexNET.dll.config
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\StackLayoutPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\GirdLayoutPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\AbsouteLayoutPage.xaml.g.cs
