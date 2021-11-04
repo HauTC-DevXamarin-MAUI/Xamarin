@@ -42,7 +42,7 @@
                        BackgroundColor="LightGray"
                        SearchButtonPressed="SearchBar_SearchButtonPressed"
                        />
-
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

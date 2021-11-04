@@ -31,3 +31,5 @@ D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\Pokede
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\StackLayoutPage.xaml.g.cs
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\GirdLayoutPage.xaml.g.cs
 D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\AbsouteLayoutPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\RelativeLayoutPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\FlexLayoutPage.xaml.g.cs

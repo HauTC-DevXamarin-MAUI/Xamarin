@@ -21,7 +21,7 @@
                         Clicked="btnHorFill_Clicked"/>
             </StackLayout>
             <!--Test Dọc-->
-            <StackLayout Orientation="Horizontal"
+            <StackLayout Orientation="Vertical"
                          Margin="0,0,0,10">
                 <Label Text="Vertical" VerticalOptions="Center"/>
                 <Button x:Name="btnVerStart" 

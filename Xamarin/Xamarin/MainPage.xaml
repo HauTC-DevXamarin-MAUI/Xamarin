@@ -111,6 +111,13 @@
                 Grid.Row="4"
                 Grid.Column="0"
                 Clicked="btnRelativeLayout_Clicked"/>
+        <Button x:Name="btnFlexLayout"
+                Text="FlexLayout" 
+                HorizontalOptions="Center"
+                VerticalOptions="Fill"
+                Grid.Row="4"
+                Grid.Column="1"
+                Clicked="btnFlexLayout_Clicked"/>
     </Grid>
 
 </ContentPage>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin.RelativeLayoutPage">
+    <RelativeLayout>
+        <BoxView Color="Aqua" 
+                 x:Name="boxBanner"
+                 RelativeLayout.XConstraint="50"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}"
+                 RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0.5}"/>
+        <!--<BoxView Color="red"
+                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=boxBanner,
+                                              Property=Y,Constant=10}"
+                 RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=boxBanner,
+                                              Property=X, Constant=20}"
+                 RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToView, ElementName=boxBanner,
+                                              Property=Width, Factor=1,Constant=-40}"
+                 RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=boxBanner,
+                                              Property=Height, Factor=1}"/>-->
+        <BoxView Color="Yellow"
+                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=boxBanner, Property=Y, Factor=10000}"
+                 RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=boxBanner, Property=X, Factor=0.5}"
+                 RelativeLayout.WidthConstraint="100"
+                                              
+                 RelativeLayout.HeightConstraint="100"/>
+
+
+
+    </RelativeLayout>
+    <!--<RelativeLayout>
+        <BoxView Color="Red"
+                 RelativeLayout.XConstraint="0"
+                 RelativeLayout.YConstraint="10"
+                 RelativeLayout.WidthConstraint="200"
+                 RelativeLayout.HeightConstraint="5" />
+        <BoxView Color="Green"
+                 RelativeLayout.XConstraint="0"
+                 RelativeLayout.YConstraint="20"
+                 RelativeLayout.WidthConstraint="200"
+                 RelativeLayout.HeightConstraint="5" />
+        <BoxView Color="Blue"
+                 RelativeLayout.XConstraint="10"
+                 RelativeLayout.YConstraint="0"
+                 RelativeLayout.WidthConstraint="5"
+                 RelativeLayout.HeightConstraint="65" />
+        <BoxView Color="Silver"
+                 RelativeLayout.XConstraint="20"
+                 RelativeLayout.YConstraint="0"
+                 RelativeLayout.WidthConstraint="5"
+                 RelativeLayout.HeightConstraint="65" />
+        <Label Text="Stylish header"
+               FontSize="24"
+               RelativeLayout.XConstraint="30"
+               RelativeLayout.YConstraint="25" />
+    </RelativeLayout>-->
+</ContentPage>

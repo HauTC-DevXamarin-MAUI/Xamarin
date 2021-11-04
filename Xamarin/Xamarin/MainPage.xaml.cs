@@ -77,7 +77,14 @@ namespace Xamarin
 
         private void btnRelativeLayout_Clicked(object sender, EventArgs e)
         {
+            Navigation.PushAsync(new RelativeLayoutPage());
+        }
+
+        private void btnFlexLayout_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new FlexLayoutPage());
 
         }
+
     }
 }
