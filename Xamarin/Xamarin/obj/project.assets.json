@@ -536,8 +536,8 @@
     },
     "PokedexNET/1.0.0": {
       "type": "project",
-      "path": "../../../../../PokedexNET_Starter/PokedexNET.csproj",
-      "msbuildProject": "../../../../../PokedexNET_Starter/PokedexNET.csproj"
+      "path": "../../PokedexNET_Starter/PokedexNET.csproj",
+      "msbuildProject": "../../PokedexNET_Starter/PokedexNET.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -556,11 +556,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GMO\\Xamarin_trainning\\Xamarin\\Xamarin\\Xamarin\\Xamarin.csproj",
+      "projectUniqueName": "D:\\GMO\\Xamarin_trainning\\Tuan1\\Xamarin\\Xamarin\\Xamarin\\Xamarin.csproj",
       "projectName": "Xamarin",
-      "projectPath": "D:\\GMO\\Xamarin_trainning\\Xamarin\\Xamarin\\Xamarin\\Xamarin.csproj",
+      "projectPath": "D:\\GMO\\Xamarin_trainning\\Tuan1\\Xamarin\\Xamarin\\Xamarin\\Xamarin.csproj",
       "packagesPath": "C:\\Users\\CongHau\\.nuget\\packages\\",
-      "outputPath": "D:\\GMO\\Xamarin_trainning\\Xamarin\\Xamarin\\Xamarin\\obj\\",
+      "outputPath": "D:\\GMO\\Xamarin_trainning\\Tuan1\\Xamarin\\Xamarin\\Xamarin\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -583,8 +583,8 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "D:\\PokedexNET_Starter\\PokedexNET.csproj": {
-              "projectPath": "D:\\PokedexNET_Starter\\PokedexNET.csproj"
+            "D:\\GMO\\Xamarin_trainning\\Tuan1\\Xamarin\\PokedexNET_Starter\\PokedexNET.csproj": {
+              "projectPath": "D:\\GMO\\Xamarin_trainning\\Tuan1\\Xamarin\\PokedexNET_Starter\\PokedexNET.csproj"
             }
           }
         }

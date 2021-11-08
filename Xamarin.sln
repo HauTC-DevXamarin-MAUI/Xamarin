@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.iOS", "Xamarin\Xama
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin", "Xamarin\Xamarin\Xamarin.csproj", "{07877B4F-60D5-4428-82CA-30730C4842FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokedexNET", "..\..\..\PokedexNET_Starter\PokedexNET.csproj", "{32051164-C8CC-4F3A-BB10-6CBE77192EDA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PokedexNET", "PokedexNET_Starter\PokedexNET.csproj", "{32051164-C8CC-4F3A-BB10-6CBE77192EDA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

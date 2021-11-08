@@ -1,5 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
@@ -24,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\PokedexNET_Starter\PokedexNET.csproj" />
+    <ProjectReference Include="..\..\PokedexNET_Starter\PokedexNET.csproj" />
   </ItemGroup>
 
   <ItemGroup>

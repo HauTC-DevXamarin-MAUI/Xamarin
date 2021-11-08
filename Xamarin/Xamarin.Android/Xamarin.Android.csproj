@@ -92,6 +92,10 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\PokedexNET_Starter\PokedexNET.csproj">
+      <Project>{32051164-c8cc-4f3a-bb10-6cbe77192eda}</Project>
+      <Name>PokedexNET</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Xamarin\Xamarin.csproj">
       <Project>{DB56AD2D-1154-4894-9516-C62A072F801D}</Project>
       <Name>Xamarin</Name>

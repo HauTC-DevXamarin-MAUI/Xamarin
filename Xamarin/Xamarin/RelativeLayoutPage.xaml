@@ -5,7 +5,7 @@
     <RelativeLayout>
         <BoxView Color="Aqua" 
                  x:Name="boxBanner"
-                 RelativeLayout.XConstraint="50"
+                 RelativeLayout.XConstraint="0"
                  RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent,Property=Width,Factor=1}"
                  RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent,Property=Height,Factor=0.5}"/>
         <!--<BoxView Color="red"
@@ -18,10 +18,9 @@
                  RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToView, ElementName=boxBanner,
                                               Property=Height, Factor=1}"/>-->
         <BoxView Color="Yellow"
-                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=boxBanner, Property=Y, Factor=10000}"
-                 RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=boxBanner, Property=X, Factor=0.5}"
-                 RelativeLayout.WidthConstraint="100"
-                                              
+                 RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=boxBanner, Property=Height, Factor=0.1}"
+                 RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=boxBanner, Property=Height, Factor=0.5}"
+                 RelativeLayout.WidthConstraint="100"                                              
                  RelativeLayout.HeightConstraint="100"/>
 
 

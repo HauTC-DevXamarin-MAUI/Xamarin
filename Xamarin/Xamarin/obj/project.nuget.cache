@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sp2fPXKR3vqz5chUZxLrMuf3PTJkAAYMJbbCbvSHySn4vpNtNbrAYWn1EQPZQsSKtiorG6Ai0LiY6ptfgFim1w==",
+  "dgSpecHash": "0pg1jXIeiXM8YJEJd6tNWj+u90O6BV456t86+dHv79MqJ4oUT6JmaSH9zZOBtF1yt+MtIE/lLIXJs+/8bvAqNw==",
   "success": true,
-  "projectFilePath": "D:\\GMO\\Xamarin_trainning\\Xamarin\\Xamarin\\Xamarin\\Xamarin.csproj",
+  "projectFilePath": "D:\\GMO\\Xamarin_trainning\\Tuan1\\Xamarin\\Xamarin\\Xamarin\\Xamarin.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\CongHau\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\CongHau\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
