@@ -1,0 +1,47 @@
+﻿^contentpage{
+    background-color: gray;
+}
+entry{
+    color: indigo;
+    font-style:oblique;
+}
+lable{
+    color:darkslategray;
+    font-size:medium;
+}
+#signUp {
+    background-color: #44c767;
+    border-radius: 28;
+    border: 1 solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17;
+    padding: 16 31;
+    text-decoration: none;
+    text-shadow: 0 1 0 #2f6627;
+}
+.giveUpClass {
+    box-shadow: 0 0 0 2 #9fb4f2;
+    background: linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+    background-color: #7892c2;
+    border-radius: 10;
+    border: 1 solid #4e6096;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 19;
+    padding: 12 37;
+    text-decoration: none;
+    text-shadow: 0 1 0 #283966;
+}
+stacklayout scrollview{
+    margin-top:20;
+    margin-bottom:20;
+    background-color:aliceblue;
+}
+ScrollView > StackLayout > Label {
+    color: brown;
+}

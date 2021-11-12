@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin.WebViewPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <WebView x:Name="webView"
+                     Source="https://conghau0112.github.io/"
+                     WidthRequest="600"
+                     HeightRequest="600"
+                     HorizontalOptions="End"
+                     VerticalOptions="Start"
+                     />
+            <Button x:Name="btnLocalHtml"
+                    Text="Local HTML"
+                    BackgroundColor="Yellow"
+                    Clicked="btnLocalHtml_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Xamarin.Tuan2"
+             Title="AttachBehavior"
+             x:Class="Xamarin.Tuan2.AttachBehavior">
+    <ContentPage.Content>
+        <StackLayout HorizontalOptions="StartAndExpand"
+                     VerticalOptions="StartAndExpand"
+                     Orientation="Vertical">    
+            <Label Text="AttachBehavior=true"/>
+            <Entry Placeholder="Enter a System.Double"
+                   local:NumericValidationBehavior.AttachBehavior="true" />
+
+            <Label Text="AttachBehavior=false"/>
+            <Entry Placeholder="Enter a System.Double"
+                   local:NumericValidationBehavior.AttachBehavior="false" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

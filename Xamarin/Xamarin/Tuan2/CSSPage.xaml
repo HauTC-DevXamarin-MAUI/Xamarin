@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Demo CSS"
+             x:Class="Xamarin.Tuan2.CSSPage">
+    <!--Add CSS-->
+    <ContentPage.Resources>
+        <StyleSheet Source="/Styles/Styles.css"/>
+    </ContentPage.Resources>
+    <!--View-->
+    <StackLayout VerticalOptions="Center"
+                 Margin="20">
+        <StackLayout>
+            <Entry Placeholder="Your UserName"/>
+            <Entry Placeholder="Your PassWord"/>
+            <Entry Placeholder="Your Email"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <CheckBox/>
+            <Label Text="from another device"/>
+        </StackLayout>
+        <ScrollView HeightRequest="100">
+            <StackLayout>
+                <Label BackgroundColor="Transparent"
+                       Text="Một kiểu được xác định trong tài nguyên ứng dụng sẽ bị ghi đè bởi một kiểu được xác định trong tài nguyên trang, nếu chúng đặt các thuộc tính giống nhau.
+                             Một kiểu được xác định trong tài nguyên trang sẽ bị ghi đè bởi một kiểu được xác định trong tài nguyên điều khiển, nếu chúng đặt các thuộc tính giống nhau.
+                             Một kiểu được xác định trong tài nguyên ứng dụng sẽ bị ghi đè bởi một kiểu được xác định trong tài nguyên điều khiển, nếu chúng đặt các thuộc tính giống nhau."/>
+            </StackLayout>
+        </ScrollView>
+        <StackLayout Orientation="Horizontal">
+            <Button StyleClass="giveUpClass"
+                    Text="Give-Up"/>
+            <Button x:Name="signUp"
+                    Text="Sign-Up"/>
+        </StackLayout>
+        <Button Text="Help"/>
+    </StackLayout>
+</ContentPage>

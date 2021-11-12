@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Explicit Style"
+             x:Class="Xamarin.Tuan2.ExplicitStylePage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="redLabel"
+                   TargetType="Label">
+                <Setter Property="FontSize"
+                        Value="25"/>
+                <Setter Property="VerticalOptions"
+                        Value="Center"/>
+                <Setter Property="HorizontalOptions"
+                        Value="Center"/>
+                <Setter Property="TextColor"
+                        Value="Red"/>
+            </Style>
+            <Style x:Key="redButton"
+                   TargetType="Button">
+                <Setter Property="CornerRadius"
+                        Value="10"/>
+                <Setter Property="VerticalOptions"
+                        Value="Center"/>
+                <Setter Property="HorizontalOptions"
+                        Value="Center"/>
+                <Setter Property="TextColor"
+                        Value="Black"/>
+                <Setter Property="BackgroundColor"
+                        Value="Red"/>
+            </Style>
+        </ResourceDictionary>  
+    </ContentPage.Resources>
+    <!--Layout-->
+    <StackLayout>
+        <Label Text="Tên: Trương Công Hậu"
+               Style="{StaticResource redLabel}"/>
+        <Label Text="Tuổi: 21"
+               Style="{StaticResource redLabel}"/>
+        <Button Text="OK"
+               Style="{StaticResource redButton}"/>
+    </StackLayout>
+</ContentPage>

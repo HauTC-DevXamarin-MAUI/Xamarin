@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Page 1"
+             x:Class="Xamarin.Tuan2.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Take me to previous page"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    Clicked="Button_OnClicked_Back"/>
+            <Button x:Name="btnNextSecondPage"
+                    Text="Add Page 2 to navigation Stack"
+                    TextColor="White"
+                    BackgroundColor="Black"
+                    Clicked="btnNextSecondPage_OnClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

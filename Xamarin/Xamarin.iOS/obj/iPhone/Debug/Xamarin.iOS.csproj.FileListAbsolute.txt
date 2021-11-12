@@ -127,3 +127,6 @@ D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\obj\iPhone\Debug\Xama
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\obj\iPhone\Debug\Xamarin.iOS.pdb
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\Xamarin.iOS.exe
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\Xamarin.iOS.pdb
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\Mono.Android.dll
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\Mono.Android.pdb
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\Mono.Android.xml

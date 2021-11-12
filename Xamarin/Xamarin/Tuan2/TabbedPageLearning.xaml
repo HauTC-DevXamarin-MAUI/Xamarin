@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:Xamarin.Tuan2"
+            x:Class="Xamarin.Tuan2.TabbedPageLearning"
+            Title="Tabble Page"
+            BarBackgroundColor="LightGray"
+            BarTextColor="Yellow"
+            SelectedTabColor="Red"
+            UnselectedTabColor="Aqua">
+    <ContentPage Title="Page Home"
+                 IconImageSource="home.png">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center"
+                         HorizontalOptions="Center">
+                <Label Text="Page Home"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage Title="Cart Page"
+                 IconImageSource="cart.png">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center"
+                         HorizontalOptions="Center">
+                <Label Text="Cart Page"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    <ContentPage Title="History Page"
+                 IconImageSource="history.png">
+        <ContentPage.Content>
+            <StackLayout VerticalOptions="Center"
+                         HorizontalOptions="Center">
+                <Label Text="History Page"/>
+            </StackLayout>
+        </ContentPage.Content>
+    </ContentPage>
+    
+    <!--gọi cách khác-->
+    <local:Page1/>
+    <local:Page1/>
+
+</TabbedPage>

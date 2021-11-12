@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin.Tuan2.StyleInheritancePage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="baseStyle" TargetType="View">
+                <Setter Property="VerticalOptions"
+                        Value="Center"/>
+                <Setter Property="HorizontalOptions"
+                        Value="CenterAndExpand"/>
+            </Style>
+            <Style x:Key="labelStyle" TargetType="Label"
+                   BasedOn="{StaticResource baseStyle}">
+                <Setter Property="TextColor" Value="Blue"/>
+            </Style>
+            <Style x:Key="buttonStyle" TargetType="Button"
+                   BasedOn="{StaticResource baseStyle}">
+                <Setter Property="TextColor" Value="Red"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout>
+        <Label Text="Lable Demo Style Inheritance"
+               Style="{StaticResource labelStyle}"/>
+        <Button Text="Button Demo Style Inheritance"
+               Style="{StaticResource buttonStyle}"/>
+    </StackLayout>
+</ContentPage>
