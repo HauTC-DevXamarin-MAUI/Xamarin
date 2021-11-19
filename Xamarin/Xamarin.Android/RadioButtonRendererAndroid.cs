@@ -22,15 +22,24 @@ namespace Xamarin.Droid
         {
 
         }
-
+        bool isCheckedChanged = false;
         protected override void OnElementChanged(ElementChangedEventArgs<Forms.RadioButton> e)
         {
+            
             base.OnElementChanged(e);
 
             if (Control != null)
             {
-                Control.SetBackgroundColor(global::Android.Graphics.Color.LightGreen);              
-              
+                Control.SetBackgroundColor(global::Android.Graphics.Color.LightGreen);
+                if(Control.Checked)
+                {
+                    Control.SetBackgroundColor(global::Android.Graphics.Color.LightGreen);
+                    Control.SetTextColor(global::Android.Graphics.Color.Yellow);
+                }
+                else
+                    Control.SetBackgroundColor(global::Android.Graphics.Color.Red);
+
+
             }
         }
 

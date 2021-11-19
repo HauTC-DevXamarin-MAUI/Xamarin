@@ -63,5 +63,10 @@ namespace Xamarin.Tuan3
         {
             Navigation.PushAsync(new CommandPage());
         }
+
+        private void btnMessCenter_OnClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new MessagingCenterPage());
+        }
     }
 }

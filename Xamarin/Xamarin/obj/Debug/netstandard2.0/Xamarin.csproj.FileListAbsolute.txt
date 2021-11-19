@@ -107,3 +107,5 @@ D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\DragAndDropPage.xaml.g.cs
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\BindablePropertyPage2.xaml.g.cs
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\CommandPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\MessagingCenterPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\SendMessagingCenterPage.xaml.g.cs

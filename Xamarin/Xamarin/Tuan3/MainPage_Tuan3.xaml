@@ -74,6 +74,11 @@
                 Grid.Row="2"
                 Grid.Column="2"
                 Clicked="btnCommand_OnClicked"/>
+        <Button x:Name="btnMessCenter"
+                Text="MessagingCenter"
+                Grid.Row="3"
+                Grid.Column="0"
+                Clicked="btnMessCenter_OnClicked"/>
     </Grid>
 
 </ContentPage>
