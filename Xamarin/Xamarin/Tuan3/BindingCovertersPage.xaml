@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Xamarin.Tuan3.Models"  
+             xmlns:converters="clr-namespace:Xamarin.Tuan3.Converters"
+             x:Class="Xamarin.Tuan3.BindingCovertersPage">
+
+    <ContentPage.BindingContext>
+        <!--Demo1-->
+        <local:LoginViewModel/>
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!--Demo1-->
+            <converters:StringToColorProperty x:Key="stringToColorProperty"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <!--Demo1-->
+            <Label Text="Demo 1"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+            <Entry Text="{Binding Path=UserName , Mode=TwoWay}"/>
+            <Label Text="{Binding Path=UserName , Mode=OneWay}"
+                   TextColor="{Binding UserName, Converter={StaticResource stringToColorProperty}}"/>
+
+            <!--Demo2--><!--    
+            <Label Text="Demo 2"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"/>
+            <StackLayout Orientation="Vertical">
+                <Button x:Name="btnSetValue"
+                        Text=" +10 "
+                        WidthRequest="100"
+                        HeightRequest="40"
+                        Margin="5"
+                        Clicked="btnSetValue_OnClicked"/>
+                --><!--Bind to Element Value--><!--
+                <Label Text="Bind Values"
+                       Margin="5"
+                       FontSize="16"/>
+                <Slider Minimum="0"
+                        Maximum="500"
+                        Value="{ Binding Path=intInput,
+                                         Mode=TwoWay, 
+                                         Converter={StaticResource stringToWidthProperty}}"/>
+                <Entry x:Name="entryValue"
+                       Margin="5"
+                       WidthRequest="100"
+                       HeightRequest="35"
+                       Text="{ Binding intInput
+                                       Mode=TwoWay, 
+                                       Converter={StaticResource stringToWidthProperty}}"/>
+                --><!--Bind to Element Width--><!--
+                <Label Text="Bind Width"
+                       Margin="5,20,0,0"
+                       FontSize="16"/>
+                <BoxView x:Name="boxViewTest"
+                         BackgroundColor="Red"
+                         HeightRequest="40"
+                         WidthRequest="{ Binding intInput
+                                                 Mode=TwoWay, 
+                                                 Converter={StaticResource stringToWidthProperty}}"/>
+
+            </StackLayout>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

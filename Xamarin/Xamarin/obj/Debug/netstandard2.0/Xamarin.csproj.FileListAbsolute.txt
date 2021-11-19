@@ -93,3 +93,17 @@ D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\Mono.Android.xml
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan2\AttachBehavior.xaml.g.cs
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan2\XamarinFormsBehaviors.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan2\ListViewBehavior.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\CustomRedererPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\MainPage_Tuan3.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\EffectPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\DataBindingPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\BindingMVVMpage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\BindingCovertersPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\BindablePropertyPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\BindablePropertyPage1.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\GestureRecognizersPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\SwipeGesturePage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\DragAndDropPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\BindablePropertyPage2.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\CommandPage.xaml.g.cs

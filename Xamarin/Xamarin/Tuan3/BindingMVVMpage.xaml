@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Xamarin.Tuan3.Models"
+             x:Class="Xamarin.Tuan3.BindingMVVMpage">
+
+    <ContentPage.BindingContext>
+        <local:ItemInfoViewModel/>
+    </ContentPage.BindingContext>
+
+
+    <ContentPage.Content>
+        <StackLayout Padding="25">
+            <Label Text="MVVM"
+                   TextColor="Blue"
+                   FontSize="Header"/>
+
+            <Label Text="Item Name"
+                   FontSize="Large"/>
+            <Entry x:Name="entryItemName"
+                   Text="{Binding ItemName}"
+                   FontSize="Large"/>
+
+            <Label Text="Price"
+                   FontSize="Large"/>
+            <Entry x:Name="entryPrice"
+                   Text="{Binding Price}"
+                   FontSize="Large"
+                   Keyboard="Numeric"/>
+
+            <!--<Button Text="Save"
+                    x:Name="btnSubmit"
+                    BackgroundColor="SkyBlue"
+                    Clicked="btnSubmit_OnClicked"/>
+            <Label x:Name="lblMessage"
+                   FontSize="Large"
+                   TextColor="Aqua"/>-->
+
+            <Button Text="Save"
+                    x:Name="btnSubmit"
+                    BackgroundColor="SkyBlue"
+                    Command="{Binding SubmitCommand}"/>
+            <Label x:Name="lblMessage"
+                   FontSize="Large"
+                   Text="{Binding Message}"
+                   TextColor="Aqua"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -14,7 +14,7 @@
                 <Setter Property="TextColor" 
                         Value="Brown"/>
             </Style>
-            <Style TargetType="Label">
+            <!--<Style TargetType="Label">
                 <Setter Property="VerticalOptions"
                             Value="CenterAndExpand"/>
                 <Setter Property="HorizontalOptions" 
@@ -23,8 +23,8 @@
                             Value="Large"/>
                 <Setter Property="TextColor" 
                             Value="YellowGreen"/>
-            </Style>
-            <Style TargetType="Button">
+            </Style>-->
+            <!--<Style TargetType="Button">
                 <Setter Property="VerticalOptions"
                         Value="Center"/>
                 <Setter Property="HorizontalOptions" 
@@ -35,7 +35,7 @@
                         Value="White"/>
                 <Setter Property="BackgroundColor" 
                         Value="Black"/>
-        </Style>
+        </Style>-->
         <!--CSS-->
         <!--<StyleSheet Source="Styles/Styles.css"/>-->
         

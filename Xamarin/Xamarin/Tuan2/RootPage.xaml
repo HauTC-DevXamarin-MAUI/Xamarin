@@ -163,6 +163,14 @@
                 Grid.Row="6"
                 Grid.Column="2"
                 Clicked="btnFormsBehacior_OnClicked"/>
+        <Button x:Name="btnEventToCommandBehavior"
+                Text="EventToCommandBehavior"
+                TextColor="White"
+                BackgroundColor="Black"
+                FontSize="12"
+                Grid.Row="7"
+                Grid.Column="0"
+                Clicked="btnEventToCommandBehavior_OnClicked"/>
         
     </Grid>
 </ContentPage>

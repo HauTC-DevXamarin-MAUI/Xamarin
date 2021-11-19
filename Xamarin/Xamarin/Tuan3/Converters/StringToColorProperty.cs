@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Globalization;
+using System.Text;
+using Xamarin.Forms;
+
+namespace Xamarin.Tuan3.Converters
+{
+    class StringToColorProperty : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            if (value != null)
+            {
+                var text = value.ToString();
+
+                if(text.Contains("Blue"))
+                {
+                    return Color.Blue;
+                }
+                else if (text == "Red")
+                {
+                    return Color.Red;
+                }
+
+                return Color.DarkCyan;
+            }
+            return null;
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            return null;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Xamarin.Tuan3.GestureRecognizers"
+             x:Class="Xamarin.Tuan3.GestureRecognizersPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--Tap-->
+            <Image Source="cat.jpg"
+                   WidthRequest="200"
+                   HeightRequest="200"
+                   HorizontalOptions="Center">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
+                                          NumberOfTapsRequired="1">
+                    </TapGestureRecognizer>
+                </Image.GestureRecognizers>
+            </Image>
+            <!--Pinch-->
+            <local:PinchToZoomContainer>
+                <local:PinchToZoomContainer.Content>
+                    <Image Source="dog.jpg" 
+                           WidthRequest="200"
+                           HeightRequest="200"
+                           HorizontalOptions="Center"/>
+                </local:PinchToZoomContainer.Content>
+            </local:PinchToZoomContainer>
+            
+            <!--Pan-->
+            <!--Swipe-->
+            <Button x:Name="btnSwipeGesture"
+                    Text="Swipe Gesture Recognizers"
+                    HorizontalOptions="Center"
+                    Clicked="btnSwipeGesture_OnClicked"/>
+            <!--Drag and Drop-->
+            <Button x:Name="btnDragDrop"
+                    Text="Drag And Drop Gesture Recognizers"
+                    HorizontalOptions="Center"
+                    Clicked="btnDragDrop_OnClicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

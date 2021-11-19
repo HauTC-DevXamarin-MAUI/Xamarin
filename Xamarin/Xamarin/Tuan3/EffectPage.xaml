@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:effects="clr-namespace:Xamarin.Tuan3.Effects"
+             x:Class="Xamarin.Tuan3.EffectPage">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center"
+                     HorizontalOptions="Center">
+            <Button Text="Demo Effect">
+                <Button.Effects>
+                    <effects:MyButtonEffect BorderWidth="0"
+                                            ColorBgr="Transparent"/>
+                </Button.Effects>
+            </Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

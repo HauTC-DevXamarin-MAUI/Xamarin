@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin.Tuan3.MainPage_Tuan3">
+    <Grid>
+        <Grid.Resources>
+            <!--Style-->
+            <ResourceDictionary>
+                <Style TargetType="Button">
+                    <Setter Property="BackgroundColor"
+                            Value="Brown"/>
+                    <Setter Property="TextColor"
+                            Value="WhiteSmoke"/>
+                </Style>
+            </ResourceDictionary>
+        </Grid.Resources>
+        <!--Row, Column-->
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        
+        <!--Button-->
+        <Button x:Name="btnCustomRederer"
+                Text="Custom Rederer"
+                Grid.Row="0"
+                Grid.Column="0"
+                Clicked="btnCustomRederer_OnClicked"/>
+        <Button x:Name="btnEffect"
+                Text="Effect"
+                Grid.Row="0"
+                Grid.Column="1"
+                Clicked="btnEffect_OnClicked"/>
+        <Button x:Name="btnDataBinding"
+                Text="Data Binding"
+                Grid.Row="0"
+                Grid.Column="2"
+                Clicked="btnDataBinding_OnClicked"/>
+        <Button x:Name="btnBindingMVVM"
+                Text="Data Binding MVVM"
+                Grid.Row="1"
+                Grid.Column="0"
+                Clicked="btnBindingMVVM_OnClicked"/>
+        <Button x:Name="btnBindingConverter"
+                Text="Dinding Value Converters"
+                Grid.Row="1"
+                Grid.Column="1"
+                Clicked="btnBindingConverter_OnClicked"/>
+        <Button x:Name="btnBindableProperty"
+                Text="Bindable Property"
+                Grid.Row="1"
+                Grid.Column="2"
+                Clicked="btnBindableProperty_OnClicked"/>
+        <Button x:Name="btnGestureRecognizers"
+                Text="Gesture recognizers"
+                Grid.Row="2"
+                Grid.Column="0"
+                Clicked="btnGestureRecognizers_OnClicked"/>
+        <Button x:Name="btnBindableProperty2"
+                Text="Bindable Property2"
+                Grid.Row="2"
+                Grid.Column="1"
+                Clicked="btnBindableProperty2_OnClicked"/>
+        <Button x:Name="btnCommand"
+                Text="Command"
+                Grid.Row="2"
+                Grid.Column="2"
+                Clicked="btnCommand_OnClicked"/>
+    </Grid>
+
+</ContentPage>

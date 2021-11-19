@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Xamarin.Tuan2.ListViewBehavior"
+             xmlns:local="clr-namespace:Xamarin.Tuan2"
+             >
+    <ContentPage.BindingContext>
+        <!--1-->
+        <local:UserViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Resources>
+        <!--2-->
+        <local:SelectedItemConverter x:Key="selectedItemConverter" />
+    </ContentPage.Resources>
+    
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <ListView ItemsSource="{Binding UserList}">
+                <ListView.Behaviors>
+                    <!--3-->
+                    <local:ListViewSelectedItemBehavior
+                        Command="{Binding OutputAgeCommand}"
+                        CommandParameter="abc"
+                        Converter="{StaticResource selectedItemConverter}"
+                        EventName="outputAgeUser"/> 
+                </ListView.Behaviors>
+            </ListView>
+            <Label Text="{Binding SelectedItemText}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

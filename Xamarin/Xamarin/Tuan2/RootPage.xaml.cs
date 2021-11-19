@@ -49,6 +49,8 @@ namespace Xamarin.Tuan2
             page.BindingContext = _myName;
 
             Navigation.PushAsync(page);
+
+            
         }
 
         private void btnPassingData3_OnClicked(object sender, EventArgs e)
@@ -114,6 +116,12 @@ namespace Xamarin.Tuan2
         private void btnFormsBehacior_OnClicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new XamarinFormsBehaviors());
+        }
+
+        private void btnEventToCommandBehavior_OnClicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new ListViewBehavior());
+
         }
     }
 }

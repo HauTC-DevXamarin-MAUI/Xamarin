@@ -1233,3 +1233,7 @@ D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\sta
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\res\drawable\home.png
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\res\drawable\cart.png
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\res\drawable\history.png
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\android\src\crc64d01531a0ef5679fa\RadioButtonRendererAndroid.java
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\res\drawable\football.png
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\res\drawable\referee.png
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\android\src\crc64d01531a0ef5679fa\BoderEntry.java

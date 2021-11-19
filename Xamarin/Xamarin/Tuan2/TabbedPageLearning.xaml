@@ -7,7 +7,8 @@
             BarBackgroundColor="LightGray"
             BarTextColor="Yellow"
             SelectedTabColor="Red"
-            UnselectedTabColor="Aqua">
+            UnselectedTabColor="Aqua"
+            >
     <ContentPage Title="Page Home"
                  IconImageSource="home.png">
         <ContentPage.Content>
@@ -37,7 +38,7 @@
     </ContentPage>
     
     <!--gọi cách khác-->
-    <local:Page1/>
+    <local:Page1 IconImageSource="cart.jpg"/>
     <local:Page1/>
 
 </TabbedPage>
