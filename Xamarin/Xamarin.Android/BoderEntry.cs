@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Widget;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using Xamarin.Forms;
@@ -17,6 +18,7 @@ namespace Xamarin.Droid
 {
     public class BoderEntry : EntryRenderer
     {
+        
         public BoderEntry(Context context) : base(context)
         {
         }
@@ -34,6 +36,12 @@ namespace Xamarin.Droid
                 Control.SetBackground(gradientDrawable);
                 Control.Gravity = GravityFlags.CenterVertical | GravityFlags.Left;
             }
+          
+        }
+        //nên thêm OnElementPropertyChanged (xử lý Realtime (property thay đổi -> xử lý))
+        protected override void OnElementPropertyChanged(object sender, PropertyChangedEventArgs e)
+        {
+            base.OnElementPropertyChanged(sender, e);
         }
     }
 }

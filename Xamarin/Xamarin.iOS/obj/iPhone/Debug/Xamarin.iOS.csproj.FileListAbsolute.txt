@@ -130,3 +130,9 @@ D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\Xama
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\Mono.Android.dll
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\Mono.Android.pdb
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\Mono.Android.xml
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\Autofac.dll
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\Autofac.pdb
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\Autofac.Extensions.DependencyInjection.dll
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\Autofac.Extensions.DependencyInjection.pdb
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.iOS\bin\iPhone\Debug\System.Diagnostics.DiagnosticSource.dll

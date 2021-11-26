@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="MyFirstAppp.Views.ListViewDemo"
+             Title="{Binding Title}">
+    
+    <StackLayout HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand">
+        
+        <ListView ItemsSource="{Binding ListItems}"
+                  SelectedItem="{Binding SelectedName}"
+                  HasUnevenRows="True"
+                  SeparatorVisibility="Default"
+                  SeparatorColor="Red"/>
+
+        <!--<ListView ItemsSource="{Binding ListItems}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    --><!--<TextCell Text="Hau1"
+                              Detail="Demo"
+                              TextColor="Red"
+                              DetailColor="Green"/>-->
+                    
+                    <!--<ImageCell ImageSource="cat.jpg"
+                               Text="Hau1"
+                               Detail="Demo"/>-->
+
+                    <!--<ViewCell></ViewCell>--><!--
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>-->
+        
+        
+    </StackLayout>
+  
+</ContentPage>

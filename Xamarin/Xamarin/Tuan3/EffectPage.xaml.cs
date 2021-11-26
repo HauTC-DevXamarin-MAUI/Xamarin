@@ -15,6 +15,7 @@ namespace Xamarin.Tuan3
         public EffectPage()
         {
             InitializeComponent();
+            Button btn = new Button();
         }
     }
 }

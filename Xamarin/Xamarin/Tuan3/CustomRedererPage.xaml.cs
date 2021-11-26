@@ -16,5 +16,10 @@ namespace Xamarin.Tuan3
         {
             InitializeComponent();
         }
+
+        private void MyRadioButton_CheckedChanged(object sender, EventArgs e)
+        {
+            DisplayAlert("Notification", "Check", "Close");
+        }
     }
 }

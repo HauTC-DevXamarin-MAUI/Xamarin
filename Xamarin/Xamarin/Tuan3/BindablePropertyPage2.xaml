@@ -8,6 +8,7 @@
     <ContentPage.BindingContext>
         <local:BindableViewModel/>
     </ContentPage.BindingContext>
+    
     <ContentPage.Content>
         <StackLayout>
             <local:BorderEntry BorderRadius="{Binding BorderRadius}" />

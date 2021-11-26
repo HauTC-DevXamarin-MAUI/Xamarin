@@ -7,7 +7,9 @@
     <ContentPage.Content>
         <StackLayout VerticalOptions="Center"
                      HorizontalOptions="Center">
-            <local:MyRadioButton Content="Hau"/>
+            <local:MyRadioButton Text="Button" 
+                                 IsChecked="False" 
+                                 CheckedChanged="MyRadioButton_CheckedChanged"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

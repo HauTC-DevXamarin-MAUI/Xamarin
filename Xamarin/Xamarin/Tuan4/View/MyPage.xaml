@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:Xamarin.Tuan4.ViewModel"
+             x:Class="Xamarin.Tuan4.View.MyPage">
+    <ContentPage.BindingContext>
+        <vm:MyViewModel/>
+    </ContentPage.BindingContext>
+    
+    <StackLayout>
+        <Button Text="Add" 
+                Command="{Binding AddCommand}"/>
+        <Label Text="{Binding ItemsCount,StringFormat='Number of items: {0} '}"
+               HorizontalOptions="Center"
+               FontAttributes="Bold"/>
+        <ListView ItemsSource="{Binding Model.Items}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Label Text="{Binding Data, StringFormat='Item: {0}'}"/>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

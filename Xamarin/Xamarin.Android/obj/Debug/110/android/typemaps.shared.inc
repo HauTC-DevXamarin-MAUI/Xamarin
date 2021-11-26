@@ -32294,8 +32294,8 @@
 	.section	.rodata.java_type_name.5382,"aMS",@progbits,1
 	.type	.L.java_type_name.5382, @object
 .L.java_type_name.5382:
-	.asciz	"crc64d01531a0ef5679fa/RadioButtonRendererAndroid"
-	.size	.L.java_type_name.5382, 49
+	.asciz	"crc64d01531a0ef5679fa/RadioButtonRenderer"
+	.size	.L.java_type_name.5382, 42
 
 	.section	.rodata.java_type_name.5383,"aMS",@progbits,1
 	.type	.L.java_type_name.5383, @object
@@ -84003,8 +84003,8 @@
 	.section	.rodata.managed_type_name.7508,"aMS",@progbits,1
 	.type	.L.managed_type_name.7508, @object
 .L.managed_type_name.7508:
-	.asciz	"Xamarin.Droid.RadioButtonRendererAndroid, Xamarin.Android"
-	.size	.L.managed_type_name.7508, 58
+	.asciz	"Xamarin.Droid.RadioButtonRenderer, Xamarin.Android"
+	.size	.L.managed_type_name.7508, 51
 	.section	.rodata.managed_type_name.7509,"aMS",@progbits,1
 	.type	.L.managed_type_name.7509, @object
 .L.managed_type_name.7509:

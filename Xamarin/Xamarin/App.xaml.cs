@@ -3,6 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using Xamarin.Tuan2;
 using Xamarin.Tuan3;
+using Xamarin.Tuan4.View;
 
 namespace Xamarin
 {
@@ -14,8 +15,8 @@ namespace Xamarin
 
             //MainPage = new NavigationPage(new MainPage());
             //MainPage = new ListViewBehavior();
-            MainPage = new NavigationPage(new MainPage_Tuan3());
-        }
+            MainPage = new NavigationPage(new Tuan4.View.MyPage());
+        } 
 
         protected override void OnStart()
         {

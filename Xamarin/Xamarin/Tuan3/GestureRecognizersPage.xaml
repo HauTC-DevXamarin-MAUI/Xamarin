@@ -10,6 +10,9 @@
                    WidthRequest="200"
                    HeightRequest="200"
                    HorizontalOptions="Center">
+
+                <!--InputTransparent="True"-->
+                
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"
                                           NumberOfTapsRequired="1">
