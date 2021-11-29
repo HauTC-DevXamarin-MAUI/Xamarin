@@ -44,14 +44,14 @@ namespace MyFirstAppp
         {
             InitializeComponent();
 
-            await NavigationService.NavigateAsync("NavigationPage/MainPage");
+            //await NavigationService.NavigateAsync("NavigationPage/MainPage");
             //await NavigationService.NavigateAsync("NavigationPage/ViewA");
             //++++++++++++++++++++++++++++++++++++++++
 
 
             //var result = await NavigationService.NavigateAsync("NavigationPage/MainPage");
 
-            //var result = await NavigationService.NavigateAsync("NavigationPage/ListViewDemo");
+            var result = await NavigationService.NavigateAsync("NavigationPage/ListViewDemo");
             //var result = await NavigationService.NavigateAsync("TabbedPage/ViewB");
 
             //var result = await NavigationService.NavigateAsync("TabbedPage?selectedTab=ViewB");

@@ -36,6 +36,8 @@ namespace MyFirstAppp.ViewModels
         {
             //await _navigationService.GoBackAsync();
             await _navigationService.NavigateAsync("/NavigationPage/MainPage");
+
+
         }
         async void ExecuteNavigateCommand1()
         {
@@ -66,6 +68,8 @@ namespace MyFirstAppp.ViewModels
             //
             //parameters.TryGetValue<string>()
         }
+
+        //Page chưa hiện thị
         public void OnNavigatingTo(INavigationParameters parameters)
         {
 

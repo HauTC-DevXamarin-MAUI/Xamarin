@@ -11,9 +11,10 @@
         
         <ListView ItemsSource="{Binding ListItems}"
                   SelectedItem="{Binding SelectedName}"
-                  HasUnevenRows="True"
+                  HasUnevenRows="False"
                   SeparatorVisibility="Default"
-                  SeparatorColor="Red"/>
+                  SeparatorColor="Red"
+                  />
 
         <!--<ListView ItemsSource="{Binding ListItems}">
             <ListView.ItemTemplate>
@@ -21,13 +22,13 @@
                     --><!--<TextCell Text="Hau1"
                               Detail="Demo"
                               TextColor="Red"
-                              DetailColor="Green"/>-->
+                              DetailColor="Green"/>--><!--
                     
-                    <!--<ImageCell ImageSource="cat.jpg"
+                    <ImageCell ImageSource="cat.jpg"
                                Text="Hau1"
-                               Detail="Demo"/>-->
+                               Detail="Demo"/>
 
-                    <!--<ViewCell></ViewCell>--><!--
+                    --><!--<ViewCell></ViewCell>--><!--
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>-->

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="BlankApp2.Views.InjectionPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Singleton" Command="{prism:NavigateTo 'SingletonPage'}"/>
+            <Button Text="TransientPage" Command="{prism:NavigateTo 'TransientPage'}"/>
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

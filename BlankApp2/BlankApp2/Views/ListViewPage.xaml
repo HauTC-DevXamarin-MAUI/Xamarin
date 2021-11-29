@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             xmlns:local="clr-namespace:BlankApp2.Template"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="BlankApp2.Views.ListViewPage">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <!--From Template-->
+            <DataTemplate x:Key="FromTemplate1">
+                <ViewCell>
+                    <ViewCell.View>
+                        <StackLayout Orientation="Horizontal"
+                                     Spacing="10"
+                                     HorizontalOptions="End">
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding FromUser}" 
+                                           FontSize="Medium"
+                                           TextColor="Purple"/>
+                                    <Label Text="To"
+                                           FontSize="Medium"/>
+                                    <Label Text="{Binding ToUser}" 
+                                           FontSize="Medium"
+                                           TextColor="Purple"/>
+                                </StackLayout>
+                                <Label Text="{Binding DataSent}" 
+                                       FontSize="Medium"/>
+                                <Label Text="{Binding Massage}" 
+                                       FontSize="Medium"
+                                       TextColor="Green"/>
+                            </StackLayout>
+                            
+                            <Image Source="{Binding ImgUrl}"
+                                   WidthRequest="75"
+                                   HeightRequest="75"/>
+                        </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
+            </DataTemplate>
+             <!--To Template-->
+            <DataTemplate x:Key="ToTemplate1">
+                <ViewCell>
+                    <ViewCell.View>
+                        <StackLayout Orientation="Horizontal"
+                                     Spacing="10"
+                                     HorizontalOptions="Start">
+                            <Image Source="{Binding ImgUrl}"
+                                   WidthRequest="75"
+                                   HeightRequest="75"/>
+                            
+                            <StackLayout>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding FromUser}" 
+                                           FontSize="Medium"
+                                           TextColor="Purple"/>
+                                    <Label Text="To"
+                                           FontSize="Medium"/>
+                                    <Label Text="{Binding ToUser}" 
+                                           FontSize="Medium"
+                                           TextColor="Purple"/>
+                                </StackLayout>
+                                <Label Text="{Binding DataSent}" 
+                                       FontSize="Medium"/>
+                                <Label Text="{Binding Massage}" 
+                                       FontSize="Medium"
+                                       TextColor="Red"/>
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell.View>
+                </ViewCell>
+            </DataTemplate>
+
+            <local:MyTemplateSelector x:Key="chatDataTemplateSelector"
+                                      FromTemplate="{StaticResource FromTemplate1}"
+                                      ToTemplate="{StaticResource ToTemplate1}"/>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout Spacing="10">
+            <Label Text="Test" FontSize="30"/>
+            <ListView x:Name="lstViewMassage"
+                      HasUnevenRows="True"
+                      ItemTemplate="{StaticResource chatDataTemplateSelector}"
+                      IsPullToRefreshEnabled="True"
+                      RefreshControlColor="Pink"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

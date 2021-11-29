@@ -13,6 +13,7 @@ using System.Linq;
 using System.Text;
 
 [assembly: Xamarin.Forms.Dependency(typeof(DeviceOrientationImplementation))]
+
 namespace MyFirstAppp.Droid.Implementations
 {
     class DeviceOrientationImplementation : IDeviceOrientation
@@ -24,6 +25,7 @@ namespace MyFirstAppp.Droid.Implementations
 
             var rotation = windowManager.DefaultDisplay.Rotation;
             bool isLandscape = rotation == SurfaceOrientation.Rotation90 || rotation == SurfaceOrientation.Rotation270;
+
             return isLandscape ? DeviceOrientation.Landscape : DeviceOrientation.Portrait;
         }
     }
