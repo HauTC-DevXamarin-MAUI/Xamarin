@@ -618,7 +618,6 @@ D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.Android\bin\Debug\Newtons
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.Android\bin\Debug\Xamarin.pdb
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.Android\bin\Debug\PokedexNET.pdb
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.Android\bin\Debug\PokedexNET.dll.config
-D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.Android\bin\Debug\PokedexNET.dll.mdb
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.Android\bin\Debug\Newtonsoft.Json.xml
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\MonoAndroid,Version=v11.0.AssemblyAttributes.cs
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin.Android\obj\Debug\110\build.props

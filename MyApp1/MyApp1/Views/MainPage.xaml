@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyApp1.Views.MainPage"
+             xmlns:prism="http://prismlibrary.com" 
+             Title="{Binding Title}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Button Text="1. Api p1"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="0"
+                Grid.Column="0"
+                Command="{prism:NavigateTo 'ApiFirstView'}"/>
+        <Button Text="1. Api p2"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="0"
+                Grid.Column="1"
+                />
+        <Button Text="2. Call Api"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="0"
+                Grid.Column="2"
+                Command="{prism:NavigateTo 'CallApiView'}"/>
+
+        <Button Text="3. Messaging Center"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="1"
+                Grid.Column="0"
+                Command="{prism:NavigateTo 'MessagingCenterSubcribeView'}"/>
+
+        <Button Text="3.1 Event Aggregator"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="1"
+                Grid.Column="1"
+                Command="{prism:NavigateTo 'EventAggregatorA'}"/>
+
+        <Button Text="4. Xamarin Essential"
+                HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Grid.Row="1"
+                Grid.Column="2"
+                Command="{prism:NavigateTo 'EssentialMainView'}"/>
+    </Grid>
+
+</ContentPage>

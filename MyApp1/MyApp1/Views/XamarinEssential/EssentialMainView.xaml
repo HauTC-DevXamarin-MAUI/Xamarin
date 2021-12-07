@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="MyApp1.Views.XamarinEssential.EssentialMainView"
+             Title="Xamarin Essential View">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Button Text="Acclerometer"
+                Grid.Row="0"
+                Grid.Column="0"
+                Command="{prism:NavigateTo 'AcclerometerView'}"/>
+        <Button Text="AppInfo"
+                Grid.Row="0"
+                Grid.Column="1"
+                Command="{prism:NavigateTo 'AppInfoView'}"/>
+
+        <Button Text="Battery"
+                Grid.Row="0"
+                Grid.Column="2"
+                Command="{prism:NavigateTo 'BatteryView'}"/>
+
+        <Button Text="Connectivity"
+                Grid.Row="1"
+                Grid.Column="0"
+                Command="{prism:NavigateTo 'ConnectivityView'}"/>
+
+        <Button Text="Data Transfer"
+                Grid.Row="1"
+                Grid.Column="1"
+                Command="{prism:NavigateTo 'DataTransferView'}"/>
+
+        <Button Text="Device Display Information"
+                Grid.Row="1"
+                Grid.Column="2"
+                Command="{prism:NavigateTo 'DeviceDisplayInformationView'}"/>
+
+        <Button Text="Device Info"
+                Grid.Row="2"
+                Grid.Column="0"
+                Command="{prism:NavigateTo 'DeviceInfoView'}"/>
+
+        <Button Text="Clipboard"
+                Grid.Row="2"
+                Grid.Column="1"
+                Command="{prism:NavigateTo 'ClipboardView'}"/>
+
+        <Button Text="Email View"
+                Grid.Row="2"
+                Grid.Column="2"
+                Command="{prism:NavigateTo 'EmailView'}"/>
+
+        <Button Text="Flashlight"
+                Grid.Row="3"
+                Grid.Column="0"
+                Command="{prism:NavigateTo 'FlashlightView'}"/>
+        
+        <Button Text="Geolocation"
+                Grid.Row="3"
+                Grid.Column="1"
+                Command="{prism:NavigateTo 'GeolocationView'}"/>
+
+        <Button Text="PhoneDialer"
+                Grid.Row="3"
+                Grid.Column="2"
+                Command="{prism:NavigateTo 'PhoneDialerView'}"/>
+
+    </Grid>
+  
+</ContentPage>

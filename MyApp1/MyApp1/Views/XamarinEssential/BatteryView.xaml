@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="MyApp1.Views.XamarinEssential.BatteryView">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Label Text="Level"
+               Grid.Row="0"
+               Grid.Column="0"
+               Margin="5"/>
+        <Label Text="{Binding Level}"
+               Grid.Row="0"
+               Grid.Column="1"/>
+
+        <Label Text="State"
+               Grid.Row="1"
+               Grid.Column="0"
+               Margin="5"/>
+        <Label Text="{Binding State}"
+               Grid.Row="1"
+               Grid.Column="1"/>
+
+        <Label Text="PowerSource"
+               Grid.Row="2"
+               Grid.Column="0"
+               Margin="5"/>
+        <Label Text="{Binding PowerSource}"
+               Grid.Row="2"
+               Grid.Column="1"/>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="MyApp1.Views.MessagingCenterSendView">
+    <!--<StackLayout HorizontalOptions="CenterAndExpand"
+                 VerticalOptions="CenterAndExpand">
+        <Button Text="Send"
+                Command="{Binding SendCommand}"/>
+        <Button Text="Go back"
+                Command="{Binding GoBackCommand}"/>
+    </StackLayout>-->
+
+    <StackLayout>
+        <Entry x:Name="msgEntry"
+               Placeholder="Enter Massage"/>
+        <Button x:Name="btnSendMessage"
+                Text="Send Message"
+                Clicked="btnSendMessage_OnClicked"/>
+    </StackLayout>
+</ContentPage>

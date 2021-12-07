@@ -45,7 +45,6 @@ D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\PokedexNET.pdb
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\PokedexNET.dll.config
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\bin\Debug\netstandard2.0\Newtonsoft.Json.xml
-D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Xamarin.csprojAssemblyReference.cache
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Xamarin.AssemblyInfoInputs.cache
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Xamarin.AssemblyInfo.cs
@@ -111,3 +110,4 @@ D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan3\SendMessagingCenterPage.xaml.g.cs
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan4\MainPage_Tuan4.xaml.g.cs
 D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Tuan4\View\MyPage.xaml.g.cs
+D:\GMO\Xamarin_trainning\Tuan1\Xamarin\Xamarin\Xamarin\obj\Debug\netstandard2.0\Xamarin.csprojAssemblyReference.cache

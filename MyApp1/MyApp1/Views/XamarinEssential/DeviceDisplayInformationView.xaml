@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="MyApp1.Views.XamarinEssential.DeviceDisplayInformationView">
+    <StackLayout VerticalOptions="Center"
+                 HorizontalOptions="Center">
+        <Label Text="{Binding Orientation}"/>
+        <Label Text="{Binding Rotation}"/>
+        <Label Text="{Binding Width}"/>
+        <Label Text="{Binding Height}"/>
+        <Label Text="{Binding Density}"/>
+
+    </StackLayout>
+</ContentPage>

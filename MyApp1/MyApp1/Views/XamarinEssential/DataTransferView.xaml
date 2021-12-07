@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="MyApp1.Views.XamarinEssential.DataTransferView">
+    <StackLayout HorizontalOptions="Center"
+                 VerticalOptions="Center">
+        <Label Text="DataTransfer"/>
+        <Entry Text="{Binding Title}"
+               Placeholder="Your title here"/>
+        <Entry Text="{Binding Text}"
+               Placeholder="Your text here"/>
+        <Button Text="Share Text"
+                Command="{Binding ShareTextCommand}"/>
+        <Label Text="------------------------------------"/>
+        <Entry Text="{Binding TitleUrl}"
+               Placeholder="Your title here"/>
+        <Entry Text="{Binding TextUrl}"
+               Placeholder="Your text here"/>
+        <Button Text="Share Text"
+                Command="{Binding ShareUrlCommand}"/>
+    </StackLayout>
+  
+</ContentPage>

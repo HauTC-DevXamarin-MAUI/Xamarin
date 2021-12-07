@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="MyApp1.Views.XamarinEssential.EmailView">
+    <StackLayout VerticalOptions="Center"
+                 HorizontalOptions="Center">
+        <Entry Placeholder="Recipients"
+               Text="{Binding Recipients}"/>
+        <Entry Placeholder="Subject"
+               Text="{Binding Subject}"/>
+        <Entry Placeholder="Body"
+               Text="{Binding Body}"/>
+        <Button Text="SEND"
+                Command="{Binding SendCommand}"/>
+    </StackLayout>
+</ContentPage>

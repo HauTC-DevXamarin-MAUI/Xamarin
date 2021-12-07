@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MyApp1.Views.EventAggregatorA"
+             xmlns:prism="http://prismlibrary.com" >
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Button Text="Subscribe" Command="{Binding OnSubscribeCommand}" />
+                <Button Text="Unsubscribe" Command="{Binding OnUnSubscribeCommand}" />
+                <Button Text="Go to B" 
+                        Command="{prism:NavigateTo 'EventAggregatorB'}" />
+
+                <ListView ItemsSource="{Binding Collection}"/>
+                
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
